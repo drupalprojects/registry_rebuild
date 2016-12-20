@@ -25,6 +25,7 @@ if (file_exists(DRUPAL_ROOT . '/core/includes/bootstrap.inc')) {
 }
 
 require_once($include_dir . '/bootstrap.inc');
+drupal_bootstrap(DRUPAL_BOOTSTRAP_CONFIGURATION);
 
 $includes = array(
   $include_dir . '/common.inc',
