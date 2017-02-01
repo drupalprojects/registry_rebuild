@@ -80,6 +80,7 @@ function drush_registry_rebuild() {
     $include_dir . '/file.inc',
     $include_dir . '/theme.inc',
     $include_dir . '/unicode.inc',
+    $include_dir . '/locale.inc',
   );
 
   if (drush_drupal_major_version() == 7) {

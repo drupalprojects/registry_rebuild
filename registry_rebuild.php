@@ -42,6 +42,7 @@ $includes = array(
   $include_dir . '/menu.inc',
   $include_dir . '/file.inc',
   $include_dir . '/theme.inc',
+  $include_dir . '/locale.inc',
 );
 
 if (function_exists('registry_rebuild')) { // == D7
